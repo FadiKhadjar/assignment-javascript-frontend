@@ -4,6 +4,7 @@ import ShowcaseContacts from '../components/ShowcaseContacts'
 import ContactUs from '../components/ContactUs'
 import Form from '../components/Form'
 import Map from '../components/Map'
+import Footer from '../components/Footer'
 
 const Contacts = () => {
   return (
@@ -13,6 +14,7 @@ const Contacts = () => {
       <ContactUs />
       <Form />
       <Map />
+      <Footer />
     </>
   )
 }

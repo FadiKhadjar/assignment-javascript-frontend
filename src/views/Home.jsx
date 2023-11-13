@@ -10,23 +10,25 @@ import ProjectAndCase from '../components/ProjectAndCase'
 import MeetOurTeam from '../components/MeetOutTeam'
 import Testimonial from '../components/Testimonial'
 import ArticleAndNews from '../components/ArticleAndNews'
+import Footer from '../components/Footer'
 
 
 
 const Home = () => {
   return (
     <>
-        <Header />
-        <Showcase />
-        <Partners />
-        <Features />
-        <AboutCompany />
-        <OurServices />
-        <WhyChooseUs />
-        <ProjectAndCase />
-        <MeetOurTeam />
-        <Testimonial />
-        <ArticleAndNews />
+      <Header />
+      <Showcase />
+      <Partners />
+      <Features />
+      <AboutCompany />
+      <OurServices />
+      <WhyChooseUs />
+      <ProjectAndCase />
+      <MeetOurTeam />
+      <Testimonial />
+      <ArticleAndNews />
+      <Footer/>
     </>
   )
 }
