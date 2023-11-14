@@ -11,6 +11,7 @@ import MeetOurTeam from '../components/MeetOutTeam'
 import Testimonial from '../components/Testimonial'
 import ArticleAndNews from '../components/ArticleAndNews'
 import Footer from '../components/Footer'
+import Newsletter from '../components/Newsletter'
 
 
 
@@ -28,6 +29,7 @@ const Home = () => {
       <MeetOurTeam />
       <Testimonial />
       <ArticleAndNews />
+      <Newsletter />
       <Footer/>
     </>
   )
