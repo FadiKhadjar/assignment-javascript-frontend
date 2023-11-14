@@ -24,6 +24,7 @@ html, body {
   font-weight: 600;
   border-radius: 25px;
   font-size: 16px;
+  transition: background-color 0.1s ease-in-out;
 }
 .btn-yellow i {
   margin-left: 8px;
@@ -1642,6 +1643,9 @@ header .container .menu .main-menu .btn-login {
   border: 1px solid rgba(25, 25, 25, 0.1);
   padding-right: 90px;
 }
+.message .container .registerForm .input-field .name:focus {
+  outline: 2px solid #9c9393;
+}
 @media (min-width: 576px) {
   .message .container .registerForm .input-field .name {
     padding-right: 180px;
@@ -1663,6 +1667,18 @@ header .container .menu .main-menu .btn-login {
     margin-left: 120px;
   }
 }
+.message .container .registerForm .input-field .errorMessage {
+  color: rgb(243, 101, 101);
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+}
+@media (min-width: 1400px) {
+  .message .container .registerForm .input-field .errorMessage {
+    margin-left: 130px;
+    margin-top: 5px;
+  }
+}
 .message .container .registerForm .input-field .email {
   color: #191919;
   padding: 15px 30px;
@@ -1672,6 +1688,9 @@ header .container .menu .main-menu .btn-login {
   outline: none;
   border: 1px solid rgba(25, 25, 25, 0.1);
   padding-right: 90px;
+}
+.message .container .registerForm .input-field .email:focus {
+  outline: 2px solid #9c9393;
 }
 @media (min-width: 576px) {
   .message .container .registerForm .input-field .email {
@@ -1705,6 +1724,9 @@ header .container .menu .main-menu .btn-login {
   padding-bottom: 60px;
   padding-right: 90px;
 }
+.message .container .registerForm .input-field .yourMessage:focus {
+  outline: 2px solid #9c9393;
+}
 @media (min-width: 576px) {
   .message .container .registerForm .input-field .yourMessage {
     padding-right: 180px;
@@ -1727,6 +1749,9 @@ header .container .menu .main-menu .btn-login {
     padding-bottom: 100px;
     margin-bottom: 25px;
   }
+}
+.message .container .btn-yellow {
+  transition: background-color 0.1s ease-in-out;
 }
 @media (min-width: 576px) {
   .message .container .btn-yellow {
