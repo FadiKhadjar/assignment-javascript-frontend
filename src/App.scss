@@ -9,6 +9,7 @@ html, body{
     line-height: 1.5;
 }
 
+// wrapper
 .wrapper-grid{
     height:100vh;
     display: grid;
@@ -165,7 +166,9 @@ html, body{
     }
 }
 
-// header
+// -------------- Components SCSS ---------------
+
+// Header
 header{
     background-color:#F0EFE9;
     padding: 16px;
@@ -290,7 +293,7 @@ header{
     }
 }
 
-// showcase 
+// Showcase 
 .showcase{
     background-color: #F0EFE9;
     position: relative;
@@ -369,7 +372,7 @@ header{
     }
 }
 
-// partners section
+// Partners
 .partners{
     .container{
         display:flex;
@@ -402,7 +405,7 @@ header{
     }
 }
 
-// features section
+// Features
 .features{
 
     @media(min-width:1600px){
@@ -520,7 +523,7 @@ header{
     }
 }
 
-// about company section
+// About Company
 .about-company{
 
     .container{
@@ -671,7 +674,7 @@ header{
     }
 }
 
-// our services section
+// Our Services
 .our-services{
     background-color: #F0EFE9;
     padding-bottom: 120px;
@@ -842,7 +845,7 @@ header{
     }
 }
 
-// why choose us section
+// Why Choose Us
 .why-choose-us{
 
     position: relative;
@@ -975,7 +978,7 @@ header{
     }
 }
 
-// our project section
+// Our Project
 .project-and-case{
     .container{
         
@@ -1042,7 +1045,7 @@ header{
     }
 }
 
-// our team section
+// Our Team
 .our-team{
     background-color: #F0D082;
     padding-bottom: 1px;
@@ -1146,7 +1149,7 @@ header{
     }
 }
 
-// testimonial section
+// Testimonial
 .testimonial{
     
     background-color: #F0D082;
@@ -1261,7 +1264,7 @@ header{
     }
 }
 
-// article and new section
+// Article and News
 .article-and-news{
 
     .container{
@@ -1491,7 +1494,7 @@ header{
     }
 }
 
-// newsletter section
+// Newsletter
 .newsletter{
     position: relative;
     background-color: #F0EFE9;
@@ -1563,7 +1566,7 @@ header{
     }
 }
 
-// showcase contact
+// Showcase Contact
 .showcase-contact{
     background-color: #F0EFE9;
     position: relative;
@@ -1623,7 +1626,7 @@ header{
     }
 }
 
-// contact us section
+// Contact Us
 .contact-us{
 
     .container{
@@ -1728,7 +1731,7 @@ header{
     }
 }
 
-// message us section
+// Form
 .message{
 
     .container{
@@ -1883,14 +1886,14 @@ header{
     }
 }
 
-// map
+// Map
 .map{
     img{
         width: 100%;
     }
 }
 
-// footer
+// Footer
 footer{
     background-color: #0E1021;
     color: #FFFFFF;
