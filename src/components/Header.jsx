@@ -39,7 +39,7 @@ const Header = () => {
                 <a href="NotFound">News</a>
                 <a href="contacts">Contact</a>
               </nav>
-              <a className="btn-yellow btn-login" href="login.html">Login <i className="fa-regular fa-arrow-up-right"></i></a>
+              <a className="btn-yellow btn-login" href="NotFound">Login <i className="fa-regular fa-arrow-up-right"></i></a>
             </div>
           </div>
         </div>
