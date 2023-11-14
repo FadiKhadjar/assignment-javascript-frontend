@@ -35,6 +35,27 @@ html, body {
   color: #f2f2f2;
 }
 
+.btn-black {
+  background-color: #191919;
+  border: 1px solid #191919;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 15px 30px;
+  font-weight: 600;
+  border-radius: 25px;
+  font-size: 16px;
+  transition-duration: 350ms;
+}
+.btn-black i {
+  margin-left: 8px;
+  font-size: 0, 9em;
+}
+.btn-black:hover {
+  background-color: #ffffff;
+  border: 1px solid #191919;
+  color: #191919;
+}
+
 .btn-transparent {
   background-color: transparent;
   border: 1px solid #191919;

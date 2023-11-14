@@ -40,6 +40,30 @@ html, body{
     }
 }
 
+// button black global class
+.btn-black{
+    background-color: #191919;
+    border: 1px solid #191919;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 15px 30px;
+    font-weight: 600;
+    border-radius: 25px;
+    font-size: 16px;
+    transition-duration: 350ms;
+
+    i{
+        margin-left: 8px;
+        font-size: 0,9em;
+    }
+
+    &:hover{
+        background-color: #ffffff;
+        border: 1px solid #191919;
+        color: #191919;
+    }
+}
+
 // button transparent global class
 .btn-transparent{
     background-color: transparent;
