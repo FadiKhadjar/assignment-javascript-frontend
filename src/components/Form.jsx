@@ -16,7 +16,7 @@ const Form = () => {
         },
 
         onSubmit: async (values) => {
-            const result = await fetch('', {
+            const result = await fetch('https://win23-assignment.azurewebsites.net/api/contactform', {
                 method: 'post',
                 headers: {
                     'content-type': 'application/json'
@@ -27,6 +27,7 @@ const Form = () => {
             switch (result.status) {
                 case 201:
                     alert('Meddelandet har skickats.')
+                    console.log('Meddelandet gick iväg')
                     break;
                 case 400:
                     setErrorMessage('Något gick fel.')
