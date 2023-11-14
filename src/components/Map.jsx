@@ -1,8 +1,14 @@
 import React from 'react'
+import map from '../assets/images/map.png'
+
 
 const Map = () => {
   return (
-    <div>Map</div>
+    <>
+        <section className="map">
+            <img src={map} alt="gps location of crito company" />
+        </section>
+    </>
   )
 }
 
