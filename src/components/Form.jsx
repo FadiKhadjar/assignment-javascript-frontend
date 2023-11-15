@@ -25,17 +25,13 @@ const Form = () => {
             })
 
             switch (result.status) {
-                case 201:
+                case 200:
                     alert('Meddelandet har skickats.')
                     console.log('Meddelandet gick iväg')
                     break;
                 case 400:
                     setErrorMessage('Något gick fel.')
                     break;
-                case 409:
-                    setErrorMessage('En annan användare med sammma e-post finns redan.')
-                    break;
-
             }
         }
     })
