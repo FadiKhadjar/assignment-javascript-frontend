@@ -82,6 +82,7 @@ const Form = () => {
                         </div>
                         <button className="btn-yellow" type="submit" >Send Message<i className="fa-regular fa-arrow-up-right"></i></button>
                         <p className="validMessage">{validMessage}</p>
+                        {/* <p className="validMessage">{(validMessage && <i className="fa-light fa-check"></i>)}</p> */}
                     </form>
                 </div>
         </section>

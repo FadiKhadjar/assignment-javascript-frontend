@@ -1,5 +1,6 @@
 import React from 'react'
 import image from '../assets/images/logotype.svg'
+import { Link } from 'react-router-dom'
 
 
 const Header = () => {
@@ -33,11 +34,11 @@ const Header = () => {
               </div>
             </div>
             <div className="main-menu">
-              <nav>
-                <a className="active" href="/">Home</a>
-                <a href="NotFound">Service</a>
-                <a href="NotFound">News</a>
-                <a href="contacts">Contact</a>
+              <nav> 
+                  <Link to="/">Home</Link>
+                  <Link to="NotFound">Service</Link>
+                  <Link to="NotFound">News</Link>
+                  <Link to="contacts">Contact</Link>
               </nav>
               <a className="btn-yellow btn-login" href="NotFound">Login <i className="fa-regular fa-arrow-up-right"></i></a>
             </div>

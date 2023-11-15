@@ -281,7 +281,8 @@ header{
                 padding-top: 10px;
 
                 nav{
-                    a {
+                    
+                    a{
                         display: inline-block;
                         color:#191919;
                         text-decoration: none;
@@ -304,8 +305,6 @@ header{
                             bottom: -3px;
                             transform: translate((calc(50% - 15px)));
 
-                            
-            
                         }
                     }
                 }
@@ -1979,17 +1978,26 @@ header{
     color: rgb(6, 131, 93);
     font-family: 'Inter', sans-serif;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 18px;
     
 
     
     @media(min-width: 1400px){
 
-        margin-left: 140px;
-        margin-top: 5px;
+        // margin-left: 130px;
+        margin-top: 20px;
+        text-align: center;
 
-        i{
-            margin-left: 5px;
+       
+    }
+
+    .i{
+            
+        margin-left: 5px;
+        
+
+        &.last{
+            border:none;
         }
     }
 
