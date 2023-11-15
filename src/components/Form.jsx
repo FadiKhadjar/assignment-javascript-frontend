@@ -50,7 +50,6 @@ const Form = () => {
                     break;
                 case 400:
                     setErrorMessage('Something is wrong')
-                    console.log('Meddelandet gick inte iväg')
                     break;
                 default:
                     setErrorMessage('Your message could not be delivered, please try again')
