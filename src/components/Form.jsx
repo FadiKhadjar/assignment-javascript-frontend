@@ -33,7 +33,7 @@ const Form = () => {
         }),
 
 
-        onSubmit: async (values) => {
+        onSubmit: async (values, {resetForm}) => {
             const result = await fetch('https://win23-assignment.azurewebsites.net/api/contactform', {
                 method: 'post',
                 headers: {
@@ -54,6 +54,8 @@ const Form = () => {
                 default:
                     setErrorMessage('Your message could not be delivered, please try again')
             }
+
+            resetForm()
         }
     })
 
