@@ -1667,18 +1667,6 @@ header .container .menu .main-menu .btn-login {
     margin-left: 120px;
   }
 }
-.message .container .registerForm .input-field .errorMessage {
-  color: rgb(243, 101, 101);
-  font-family: "Inter", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-}
-@media (min-width: 1400px) {
-  .message .container .registerForm .input-field .errorMessage {
-    margin-left: 130px;
-    margin-top: 5px;
-  }
-}
 .message .container .registerForm .input-field .email {
   color: #191919;
   padding: 15px 30px;
@@ -1772,6 +1760,48 @@ header .container .menu .main-menu .btn-login {
   .message .container .btn-yellow {
     width: 1010px;
     margin-left: 120px;
+  }
+}
+
+.errorMessage {
+  color: rgb(243, 101, 101);
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+}
+@media (min-width: 1400px) {
+  .errorMessage {
+    margin-left: 130px;
+    margin-top: 5px;
+  }
+}
+
+.validMessage {
+  color: rgb(6, 131, 93);
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+}
+@media (min-width: 1400px) {
+  .validMessage {
+    margin-left: 140px;
+    margin-top: 5px;
+  }
+  .validMessage i {
+    margin-left: 5px;
+  }
+}
+
+.error {
+  color: rgb(243, 101, 101);
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+}
+@media (min-width: 1400px) {
+  .error {
+    margin-left: 130px;
+    margin-top: 5px;
   }
 }
 
