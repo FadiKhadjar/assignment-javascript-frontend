@@ -8,7 +8,7 @@ const Header = () => {
     <>
       <header>
         <div className="container">
-          <a href="/"><img src={image} alt="crito logotype"/></a>
+          <Link to="/"><img src={image} alt="crito logotype"/></Link>
           <button className="menu-bars"><i className="fa-solid fa-bars-staggered"></i></button>
           <div className="menu">
             <div className="top-menu">
