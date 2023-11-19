@@ -9,7 +9,7 @@ const Footer = () => {
         <img className="wavy-lines-footer" src={lines}/>
         <div className="container">
             <div className="logotype">
-                <a href="/"><img src={logotype} alt="crito"/></a>
+                <a href="/"><img src={logotype} alt="crito"/></a> 
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat obcaecati voluptas voluptates! Voluptates laborum nam ratione minus necessitatibus, iure praesentium.</p>
             </div>
             <div className="row">
